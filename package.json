@@ -1,0 +1,28 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Alex Tailor",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "nodemon": "^2.0.6",
+    "npm": "^6.14.8",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.1.17"
+  }
+}
